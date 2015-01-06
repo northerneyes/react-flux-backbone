@@ -5,12 +5,21 @@ React with the Flux architecture, combined with the power of Backbone's collecti
 Goal of this project is to create a kind of bootstrap for a React application with the given tools, 
 and as simple as possible without the need to learn a different framework-like layer above these libraries.
 
+
+````
+npm install
+node  server.js
+gulp
+````
+or:
 ````
 npm install webpack -g
 npm install
 webpack -d -w
-python -m SimpleHTTPServer
+node  server.js
 ````
+
+
 
 ## Features
 - Backbone's collections/models/events as data store, with ES6 classes.
