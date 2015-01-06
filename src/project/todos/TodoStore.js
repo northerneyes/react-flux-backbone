@@ -1,5 +1,5 @@
 var Backbone = require('backbone');
-var Store = require('project/shared/libs/Store');
+var Store = require('../shared/libs/Store');
 var constants = require('./constants');
 
 

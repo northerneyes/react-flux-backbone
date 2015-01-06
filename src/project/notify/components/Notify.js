@@ -1,5 +1,5 @@
 var React = require('react');
-var storeMixin = require('project/shared/helpers/storeMixin');
+var storeMixin = require('../../shared/helpers/storeMixin');
 var NotifyStore = require('../NotifyStore');
 var NotifyActions = require('../NotifyActions');
 

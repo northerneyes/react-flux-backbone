@@ -1,5 +1,5 @@
 var Backbone = require('backbone');
-var Dispatcher = require('project/shared/dispatcher');
+var Dispatcher = require('../../shared/dispatcher');
 
 
 var baseStore = {

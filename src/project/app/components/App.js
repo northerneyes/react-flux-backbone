@@ -2,8 +2,8 @@ var React = require('react');
 
 var Header = require('./Header');
 var Footer = require('./Footer');
-var Notify = require('project/notify/components/Notify');
-var Router = require('project/router/components/Router');
+var Notify = require('../../notify/components/Notify');
+var Router = require('../../router/components/Router');
 
 
 module.exports = React.createClass({

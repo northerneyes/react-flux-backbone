@@ -4,7 +4,7 @@
  */
 var React = require('react');
 var process = require('process');
-var storeMixin = require('project/helpers/storeMixin');
+var storeMixin = require('../../helpers/storeMixin');
 var constants = require('../constants');
 var RouterStore = require('../RouterStore');
 

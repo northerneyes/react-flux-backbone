@@ -1,5 +1,5 @@
 var React = require('react');
-var storeMixin = require('project/shared/helpers/storeMixin');
+var storeMixin = require('../../shared/helpers/storeMixin');
 var RouterStore = require('../RouterStore');
 
 
@@ -13,14 +13,14 @@ module.exports = React.createClass({
     getComponentClass: function(route) {
         switch (route) {
             case 'help':
-                return require('project/app/components/Help');
+                return require('../../app/components/Help');
 
             case 'flickr':
-                return require('project/flickr/components/Flickr');
+                return require('../../flickr/components/Flickr');
 
             case 'todos':
             default:
-                return require('project/todos/components/Todos');
+                return require('../../todos/components/Todos');
         }
     },
 

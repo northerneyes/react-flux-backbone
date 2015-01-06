@@ -1,5 +1,5 @@
 var React = require('react');
-var SingleInputForm = require('project/shared/components/SingleInputForm');
+var SingleInputForm = require('../../shared/components/SingleInputForm');
 
 
 module.exports = React.createClass({
@@ -7,6 +7,6 @@ module.exports = React.createClass({
         this.props.onAdd(value);
     },
     render: function() {
-        return <SingleInputForm className='form-control' onSubmit={this.onSubmit} placeholder="Add a todo.." />
+        return <SingleInputForm className='form-control' onSubmit={this.onSubmit} placeholder="Add a todos.." />
     }
 });

@@ -1,5 +1,7 @@
 var Backbone = require('backbone');
-var Store = require('project/shared/libs/Store');
+var $ = require('jquery');
+Backbone.$ = $;
+var Store = require('../shared/libs/Store');
 var conf = require('./settings');
 var constants = require('./constants');
 

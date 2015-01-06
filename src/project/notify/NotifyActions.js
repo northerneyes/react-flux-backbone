@@ -1,5 +1,5 @@
 var constants = require('./constants');
-var dispatch = require('project/shared/helpers/dispatch');
+var dispatch = require('../shared/helpers/dispatch');
 
 
 module.exports = {

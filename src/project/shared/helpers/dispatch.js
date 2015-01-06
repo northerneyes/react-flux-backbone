@@ -1,4 +1,4 @@
-var Dispatcher = require('project/shared/dispatcher');
+var Dispatcher = require('../../shared/dispatcher');
 
 
 /**
